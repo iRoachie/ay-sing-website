@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>letter</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Support-Site" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-Landscape" transform="translate(-639.000000, -594.000000)" fill-rule="nonzero">
+            <g id="Group-11" transform="translate(155.000000, 190.000000)">
+                <g id="Group-7" transform="translate(484.000000, 404.000000)">
+                    <g id="letter">
+                        <g id="Layer_1">
+                            <ellipse id="Oval" fill="#4F5565" cx="23.9783353" cy="23.9664941" rx="23.9783353" ry="23.9664941"></ellipse>
+                            <rect id="Rectangle-path" fill="#F5EA0A" x="5.52366891" y="19.8816" width="36.9093327" height="24.9557647"></rect>
+                            <polygon id="Shape" fill="#F8B517" points="23.9783353 3.06362353 5.52366891 19.8816 23.9783353 36.7315765 42.4330016 19.8816"></polygon>
+                            <polygon id="Shape" fill="#FCFCFD" points="9.80201697 23.7749647 23.5632597 36.3486118 24.3934108 36.3486118 38.1545594 23.7749647 38.1545594 8.16969412 9.80201697 8.16969412"></polygon>
+                            <rect id="Rectangle-path" fill="#71D456" x="14.2081458" y="12.4459294" width="19.5083632" height="1.34032941"></rect>
+                            <g id="Group" transform="translate(14.124622, 16.094118)" fill="#F1F3F7">
+                                <rect id="Rectangle-path" x="0.0835235992" y="0.0856470588" width="19.5083632" height="1.34032941"></rect>
+                                <rect id="Rectangle-path" x="0.0835235992" y="4.13854118" width="19.5083632" height="1.34032941"></rect>
+                                <rect id="Rectangle-path" x="0.0835235992" y="8.19143529" width="19.5083632" height="1.34032941"></rect>
+                                <polygon id="Shape" points="19.0810463 12.2125176 0.626379912 12.2125176 2.09505813 13.5847529 17.6122739 13.5847529"></polygon>
+                                <polygon id="Shape" points="14.6429958 16.2654118 5.06443037 16.2654118 6.53310858 17.6057412 13.1742234 17.6057412"></polygon>
+                            </g>
+                            <polygon id="Shape" fill="#FBD303" points="27.0753941 33.7955765 20.8812764 33.7955765 5.52366891 44.8692706 42.4330016 44.8692706"></polygon>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

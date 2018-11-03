@@ -1,0 +1,16 @@
+@mixin respond-to($breakpoint) {
+  @media (min-width: map($breakpoints, $breakpoint)) {
+    @content;
+  }
+}
+
+@mixin element($element) {
+  &__#{$element} {
+    @content;
+  }
+}
+
+@mixin size($width, $height: $width) {
+  width: $width;
+  height: $height;
+} 
