@@ -1,0 +1,34 @@
+:root {
+  --primary: #1a3158;
+  --secondary: #54c7fc;
+  font-size: 24px;
+}
+
+@font-face {
+  font-family: 'Futura';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('/fonts/Futura-Medium.woff') format('woff');
+}
+
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'Futura', 'Trebuchet MS', sans-serif;
+  background: var(--primary);
+  padding: 1rem 0.5rem;
+  max-height: 100vh;
+  min-height: 100vh;
+}
+
+* {
+  font-weight: 500;
+}
+
+.container {
+  margin: 0 auto;
+  width: 970px;
+}
