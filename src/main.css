@@ -31,4 +31,5 @@ body {
 .container {
   margin: 0 auto;
   width: 970px;
+  max-width: calc(100vw - 30px);
 }
