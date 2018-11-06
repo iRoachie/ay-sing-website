@@ -105,12 +105,6 @@ const Layout = ({ children }) => (
           <link
             rel="icon"
             type="image/png"
-            sizes="192x192"
-            href={require('../images/favicons/android-icon-192x192.png')}
-          />
-          <link
-            rel="icon"
-            type="image/png"
             sizes="32x32"
             href={require('../images/favicons/favicon-32x32.png')}
           />

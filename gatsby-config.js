@@ -19,13 +19,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'gatsby-starter-default',
-        short_name: 'starter',
+        name: 'AY Sing - The Advent Youth Sing',
+        short_name: 'AY Sing',
         start_url: '/',
-        background_color: '#663399',
-        theme_color: '#663399',
+        background_color: '#1a3158',
+        theme_color: '#1a3158',
         display: 'minimal-ui',
-        icon: 'src/images/gatsby-icon.png', // This path is relative to the root of the site.
+        icon: 'src/images/aysing-icon.jpg', // This path is relative to the root of the site.
       },
     },
     'gatsby-plugin-offline',
