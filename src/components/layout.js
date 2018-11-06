@@ -3,6 +3,8 @@ import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
 
+import graph from '../images/favicons/graph.png'
+
 const Layout = ({ children }) => (
   <StaticQuery
     query={graphql`
@@ -41,7 +43,7 @@ const Layout = ({ children }) => (
             { name: 'og:description', content: description },
             {
               name: 'og:image',
-              content: `${siteUrl}/static/favicons/graph.png`,
+              content: graph,
             },
             {
               name: 'msapplication-TileColor',
