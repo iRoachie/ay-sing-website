@@ -46,6 +46,38 @@ const Layout = ({ children }) => (
               content: graph,
             },
             {
+              name: 'twitter:card',
+              content: 'app',
+            },
+            {
+              name: 'twitter:site',
+              content: '@roach_iam',
+            },
+            {
+              name: 'twitter:description',
+              content: description,
+            },
+            {
+              name: 'twitter:app:name:iphone',
+              content: 'AY Sing',
+            },
+            {
+              name: 'twitter:app:name:googleplay',
+              content: 'AY Sing',
+            },
+            {
+              name: 'twitter:app:id:iphone',
+              content: '1200976617',
+            },
+            {
+              name: 'twitter:app:id:ipad',
+              content: '1200976617',
+            },
+            {
+              name: 'twitter:app:id:googleplay',
+              content: 'com.aysing',
+            },
+            {
               name: 'msapplication-TileColor',
               content: '#ffffff',
             },
