@@ -79,6 +79,30 @@ const IndexPage = () => (
         </a>
       </div>
     </main>
+
+    <style jsx global>{`
+      body {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        font-family: 'Futura', 'Trebuchet MS', sans-serif;
+        background: var(--primary);
+        padding: 1rem 0.5rem;
+        max-height: 100vh;
+        min-height: 100vh;
+      }
+
+      * {
+        font-weight: 500;
+      }
+
+      .container {
+        margin: 0 auto;
+        width: 970px;
+        max-width: calc(100vw - 30px);
+      }
+    `}</style>
   </Layout>
 )
 
