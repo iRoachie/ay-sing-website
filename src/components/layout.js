@@ -34,7 +34,7 @@ const Layout = ({ children }) => (
             },
             {
               name: 'google-site-verification',
-              content: '0BgT_TsweWIhDEE4h3osam_PDlXJdeNPhyVL2OpEkxA',
+              content: 'pgs8yb2f6M3YBWO9lhS0A36QB7A7uDi-pcMCdfaOIGw',
             },
             { name: 'keywords', content: keywords },
             { name: 'og:url', content: siteUrl },
