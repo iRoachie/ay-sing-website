@@ -1,18 +1,17 @@
 import React from 'react'
-import { withPrefix } from 'gatsby'
-
-import phones from '../images/phones.png'
+import Img from 'gatsby-image'
+import { withPrefix, graphql } from 'gatsby'
 
 import '../index.css'
 import '../main.css'
 
 import Layout from '../components/layout'
 
-const IndexPage = () => (
+const IndexPage = ({ data }) => (
   <Layout>
     <main className="container flex flex-col items-center justify-center md:flex-row">
-      <img
-        src={phones}
+      <Img
+        fluid={data.file.childImageSharp.fluid}
         alt="AY Sing"
         className="hidden md:block md:w-48 lg:w-1/2"
       />
@@ -105,5 +104,17 @@ const IndexPage = () => (
     `}</style>
   </Layout>
 )
+
+export const query = graphql`
+  query {
+    file(relativePath: { eq: "phones.png" }) {
+      childImageSharp {
+        fluid(maxWidth: 485) {
+          ...GatsbyImageSharpFluid_noBase64
+        }
+      }
+    }
+  }
+`
 
 export default IndexPage
