@@ -8,6 +8,7 @@
     "gatsby-plugin-google-analytics": "^2.0.7",
     "gatsby-plugin-manifest": "^2.0.5",
     "gatsby-plugin-offline": "^2.0.5",
+    "gatsby-plugin-purgecss": "^4.0.0",
     "gatsby-plugin-react-helmet": "^3.0.0",
     "gatsby-plugin-sharp": "^2.2.1",
     "gatsby-plugin-styled-jsx": "^3.0.5",
@@ -25,7 +26,7 @@
   "license": "MIT",
   "scripts": {
     "build:css": "tailwind build ./src/index.tailwind.css -c ./tailwind.js -o ./src/index.css",
-    "build": "npm run build:css && purgecss -c ./purgecss.config.js -o ./src && gatsby build",
+    "build": "npm run build:css && gatsby build",
     "develop": "npm run build:css && gatsby develop",
     "start": "npm run develop",
     "format": "prettier --write \"src/**/*.js\"",
@@ -33,7 +34,6 @@
   },
   "devDependencies": {
     "prettier": "^1.14.2",
-    "purgecss": "^1.1.0",
     "tailwindcss": "^0.7.0"
   },
   "repository": "git@gitlab.com:ay-sing/ay-sing-website.git"
